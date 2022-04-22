@@ -1,0 +1,11 @@
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/model/Balance.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/client/Environement.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/model/Transaction.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/model/Node.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/model/TransactionInput.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/client/ApiClientImpl.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/model/TransactionFee.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/model/TransactionStatus.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/client/ApiClient.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/client/ArchethicApi.java
+/Users/elmaroufy/Documents/dev/archethic/workspaces/t1/archethic-java-sdk/src/main/java/com/elmaroufy/archethic/client/Transport.java
