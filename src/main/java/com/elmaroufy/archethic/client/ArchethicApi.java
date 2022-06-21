@@ -5,24 +5,65 @@ import com.elmaroufy.archethic.model.*;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-public interface ArchethicApi {
+public class ArchethicApi {
 
+    public CompletableFuture<TransactionStatus> sendTransaction(Transaction transaction) {
+        return null;
+    }
 
-    CompletableFuture<TransactionStatus> sendTransaction(Transaction transaction);
-    CompletableFuture<Transaction> getLastTransaction(String address);
-    CompletableFuture<String> getStorageNoncePublicKey();
-    CompletableFuture<Balance> fetchBalance(String address);
-    CompletableFuture<String> getTransactionContent(String address);
-    CompletableFuture<List<Transaction>> getTransactionChain(String address, int page);
-    CompletableFuture<List<Node>> getNodeList();
-    CompletableFuture<List<Transaction>> networkTransactions(String type, int page);
-    CompletableFuture<List<TransactionInput>> getTransactionInputs(String address);
-    //TODO to move
-    CompletableFuture<String> createKeychain(String passphrase, String originPrivateKey);
-    CompletableFuture<Transaction> getTransactionAllInfos(String address);
-    CompletableFuture<TransactionFee> getTransactionFee(Transaction transaction);
-    //TODO to move
-    CompletableFuture<String> lastAddressFromSeed(String seed);
-    CompletableFuture<String> lastAddressFromAddress(String address);
-    CompletableFuture<OracleUcoPrice> getLastOracleUcoPrice();
+    public CompletableFuture<Transaction> getLastTransaction(String address) {
+        return null;
+    }
+
+    public CompletableFuture<String> getStorageNoncePublicKey() {
+        return null;
+    }
+
+    public CompletableFuture<Balance> fetchBalance(String address) {
+        return null;
+    }
+
+    public CompletableFuture<String> getTransactionContent(String address) {
+        return null;
+    }
+
+    public CompletableFuture<List<Transaction>> getTransactionChain(String address, int page) {
+        return null;
+    }
+
+    public CompletableFuture<List<Node>> getNodeList() {
+        return null;
+    }
+
+    public CompletableFuture<List<Transaction>> networkTransactions(String type, int page) {
+        return null;
+    }
+
+    public CompletableFuture<List<TransactionInput>> getTransactionInputs(String address) {
+        return null;
+    }
+
+    public CompletableFuture<String> createKeychain(String passphrase, String originPrivateKey) {
+        return null;
+    }
+
+    public CompletableFuture<Transaction> getTransactionAllInfos(String address) {
+        return null;
+    }
+
+    public CompletableFuture<TransactionFee> getTransactionFee(Transaction transaction) {
+        return null;
+    }
+
+    public CompletableFuture<String> lastAddressFromSeed(String seed) {
+        return null;
+    }
+
+    public CompletableFuture<String> lastAddressFromAddress(String address) {
+        return null;
+    }
+
+    public CompletableFuture<OracleUcoPrice> getLastOracleUcoPrice() {
+        return null;
+    }
 }
