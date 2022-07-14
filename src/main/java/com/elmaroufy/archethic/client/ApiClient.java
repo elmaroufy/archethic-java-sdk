@@ -2,7 +2,7 @@ package com.elmaroufy.archethic.client;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ApiClient{
+public class ApiClient {
 
     private final Transport transport;
 
